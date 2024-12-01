@@ -1,5 +1,5 @@
 using Carglass.TechnicalAssessment.Backend.BL;
-using Carglass.TechnicalAssessment.Backend.Dtos;
+using Carglass.TechnicalAssessment.Backend.Dtos.Clients;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Carglass.TechnicalAssessment.Backend.Api.Controllers;
@@ -8,9 +8,9 @@ namespace Carglass.TechnicalAssessment.Backend.Api.Controllers;
 [Route("clients")]
 public class ClientsController : ControllerBase
 {
-    private readonly IClientAppService _clientAppService;
+    private readonly IClientService _clientAppService;
 
-    public ClientsController(IClientAppService clientAppService)
+    public ClientsController(IClientService clientAppService)
     {
         this._clientAppService = clientAppService;
     }
@@ -18,8 +18,8 @@ public class ClientsController : ControllerBase
     [HttpGet]
     public IActionResult GetAll()
     {
-        // TODO Implement
-        throw new NotImplementedException();
+        var clients = _clientAppService.GetAll();
+        return Ok(clients);
     }
 
     [HttpGet]
@@ -32,8 +32,8 @@ public class ClientsController : ControllerBase
     [HttpPost]
     public IActionResult Create([FromBody] ClientDto dto)
     {
-        // TODO Implement
-        throw new NotImplementedException();
+        _clientAppService.Create(dto);
+        return CreatedAtAction(nameof(GetById), new { id = dto.Id }, dto);
     }
 
     [HttpPut]
@@ -46,7 +46,7 @@ public class ClientsController : ControllerBase
     [HttpDelete]
     public IActionResult Delete([FromBody] ClientDto dto)
     {
-        // TODO Implement
-        throw new NotImplementedException();
+        _clientAppService.Delete(dto);
+        return NoContent();
     }
 }

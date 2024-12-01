@@ -1,4 +1,4 @@
-﻿namespace Carglass.TechnicalAssessment.Backend.Dtos;
+﻿namespace Carglass.TechnicalAssessment.Backend.Dtos.Clients;
 
 public class ClientDto
 {

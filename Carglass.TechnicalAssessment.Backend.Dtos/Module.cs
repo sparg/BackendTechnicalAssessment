@@ -1,4 +1,6 @@
 ﻿using Autofac;
+using Carglass.TechnicalAssessment.Backend.Dtos.Clients;
+using Carglass.TechnicalAssessment.Backend.Dtos.Validator;
 using FluentValidation;
 using System.Reflection;
 
