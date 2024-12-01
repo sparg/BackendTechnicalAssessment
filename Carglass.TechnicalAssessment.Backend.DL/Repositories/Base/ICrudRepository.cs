@@ -1,4 +1,4 @@
-﻿namespace Carglass.TechnicalAssessment.Backend.DL.Repositories.Interfaces;
+﻿namespace Carglass.TechnicalAssessment.Backend.DL.Repositories.Base;
 
 public interface ICrudRepository<TEntity>
 {

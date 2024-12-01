@@ -1,4 +1,5 @@
 ﻿using Autofac;
+using Carglass.TechnicalAssessment.Backend.DL.Repositories;
 
 namespace Carglass.TechnicalAssessment.Backend.DL;
 
@@ -11,6 +12,8 @@ public class Module : Autofac.Module
 
     private static void RegisterRepositories(ContainerBuilder builder)
     {
-        // TODO Implement repositories DI
+        builder.RegisterType<ClientRepository>()
+            .As<IClientRepository>()
+            .InstancePerDependency();
     }
 }

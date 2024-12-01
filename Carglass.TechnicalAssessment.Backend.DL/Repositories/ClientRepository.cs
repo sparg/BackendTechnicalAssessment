@@ -3,7 +3,7 @@ using Carglass.TechnicalAssessment.Backend.Models.Entities;
 
 namespace Carglass.TechnicalAssessment.Backend.DL.Repositories;
 
-public class ClientRepository : ICrudRepository<Client>
+public class ClientRepository : IClientRepository
 {
     private ICollection<Client> _clientsRepository;
 

@@ -23,7 +23,7 @@ public class Module : Autofac.Module
     private static void RegisterRepositories(ContainerBuilder builder)
     {
         builder.RegisterType<ClientRepository>()
-            .AsSelf()
+            .As<IClientRepository>()
             .InstancePerDependency();
     }
 }
