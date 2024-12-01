@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carglass.TechnicalAssessmen
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carglass.TechnicalAssessment.Backend.Entities", "Carglass.TechnicalAssessment.Backend.Entities\Carglass.TechnicalAssessment.Backend.Entities.csproj", "{6744C5CB-3732-4241-9014-3AE131AE544D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carglass.TechnicalAssessment.Backend.Api.Tests", "Carglass.TechnicalAssessment.Backend.Api.Tests\Carglass.TechnicalAssessment.Backend.Api.Tests.csproj", "{F4E8C567-EFE0-4239-BACA-9FD235A49E14}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{6744C5CB-3732-4241-9014-3AE131AE544D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6744C5CB-3732-4241-9014-3AE131AE544D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6744C5CB-3732-4241-9014-3AE131AE544D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4E8C567-EFE0-4239-BACA-9FD235A49E14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4E8C567-EFE0-4239-BACA-9FD235A49E14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4E8C567-EFE0-4239-BACA-9FD235A49E14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4E8C567-EFE0-4239-BACA-9FD235A49E14}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
