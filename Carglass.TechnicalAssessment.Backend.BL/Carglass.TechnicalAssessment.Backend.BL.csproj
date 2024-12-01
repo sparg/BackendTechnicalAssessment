@@ -13,7 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Carglass.TechnicalAssessment.Backend.DL\Carglass.TechnicalAssessment.Backend.DL.csproj" />
-    <ProjectReference Include="..\Carglass.TechnicalAssessment.Backend.Dtos\Carglass.TechnicalAssessment.Backend.Dtos.csproj" />
+    <ProjectReference Include="..\Carglass.TechnicalAssessment.Backend.Models\Carglass.TechnicalAssessment.Backend.Models.csproj" />
   </ItemGroup>
 
 </Project>

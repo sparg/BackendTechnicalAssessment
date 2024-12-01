@@ -1,11 +1,11 @@
 using Carglass.TechnicalAssessment.Backend.Api.Controllers;
-using Carglass.TechnicalAssessment.Backend.BL;
-using Carglass.TechnicalAssessment.Backend.Dtos.Clients;
+using Carglass.TechnicalAssessment.Backend.BL.Clients;
+using Carglass.TechnicalAssessment.Backend.Models.Dto;
 using FluentAssertions;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
 
-namespace Carglass.TechnicalAssessment.Backend.Api.Tests.Controllers
+namespace Carglass.TechnicalAssessment.Backend.Api.Tests
 {
     public class ClientsControllerTests
     {

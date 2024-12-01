@@ -9,11 +9,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carglass.TechnicalAssessmen
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carglass.TechnicalAssessment.Backend.Api", "Carglass.TechnicalAssessment.Backend.Api\Carglass.TechnicalAssessment.Backend.Api.csproj", "{F22D49EB-3E97-4140-88B2-32AA7FAB8012}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carglass.TechnicalAssessment.Backend.Dtos", "Carglass.TechnicalAssessment.Backend.Dtos\Carglass.TechnicalAssessment.Backend.Dtos.csproj", "{23371933-171C-486D-A570-F46C7F619FAF}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carglass.TechnicalAssessment.Backend.Entities", "Carglass.TechnicalAssessment.Backend.Entities\Carglass.TechnicalAssessment.Backend.Entities.csproj", "{6744C5CB-3732-4241-9014-3AE131AE544D}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carglass.TechnicalAssessment.Backend.Api.Tests", "Carglass.TechnicalAssessment.Backend.Api.Tests\Carglass.TechnicalAssessment.Backend.Api.Tests.csproj", "{F4E8C567-EFE0-4239-BACA-9FD235A49E14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carglass.TechnicalAssessment.Backend.Models", "Carglass.TechnicalAssessment.Backend.Models\Carglass.TechnicalAssessment.Backend.Models.csproj", "{97CC036D-7368-46F2-9F77-B8F45C2B93D6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,18 +31,14 @@ Global
 		{F22D49EB-3E97-4140-88B2-32AA7FAB8012}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F22D49EB-3E97-4140-88B2-32AA7FAB8012}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F22D49EB-3E97-4140-88B2-32AA7FAB8012}.Release|Any CPU.Build.0 = Release|Any CPU
-		{23371933-171C-486D-A570-F46C7F619FAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{23371933-171C-486D-A570-F46C7F619FAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{23371933-171C-486D-A570-F46C7F619FAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{23371933-171C-486D-A570-F46C7F619FAF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6744C5CB-3732-4241-9014-3AE131AE544D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6744C5CB-3732-4241-9014-3AE131AE544D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6744C5CB-3732-4241-9014-3AE131AE544D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6744C5CB-3732-4241-9014-3AE131AE544D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F4E8C567-EFE0-4239-BACA-9FD235A49E14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F4E8C567-EFE0-4239-BACA-9FD235A49E14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4E8C567-EFE0-4239-BACA-9FD235A49E14}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4E8C567-EFE0-4239-BACA-9FD235A49E14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97CC036D-7368-46F2-9F77-B8F45C2B93D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97CC036D-7368-46F2-9F77-B8F45C2B93D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97CC036D-7368-46F2-9F77-B8F45C2B93D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97CC036D-7368-46F2-9F77-B8F45C2B93D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

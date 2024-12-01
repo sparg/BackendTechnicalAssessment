@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
-using Carglass.TechnicalAssessment.Backend.Dtos.Clients;
-using Carglass.TechnicalAssessment.Backend.Entities;
+using Carglass.TechnicalAssessment.Backend.Models.Dto;
+using Carglass.TechnicalAssessment.Backend.Models.Entities;
 
 namespace Carglass.TechnicalAssessment.Backend.BL.Clients.Converter;
 

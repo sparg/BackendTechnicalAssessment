@@ -1,10 +1,10 @@
 ﻿using AutoMapper;
 using Carglass.TechnicalAssessment.Backend.DL.Repositories;
-using Carglass.TechnicalAssessment.Backend.Dtos.Clients;
-using Carglass.TechnicalAssessment.Backend.Entities;
+using Carglass.TechnicalAssessment.Backend.Models.Dto;
+using Carglass.TechnicalAssessment.Backend.Models.Entities;
 using FluentValidation;
 
-namespace Carglass.TechnicalAssessment.Backend.BL;
+namespace Carglass.TechnicalAssessment.Backend.BL.Clients;
 
 internal class ClientService : IClientService
 {
@@ -17,9 +17,9 @@ internal class ClientService : IClientService
         IMapper mapper,
         IValidator<ClientDto> validator)
     {
-        this._clientRepository = clientRepository ?? throw new ArgumentNullException(nameof(clientRepository));
-        this._mapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
-        this._validator = validator ?? throw new ArgumentNullException(nameof(validator));
+        _clientRepository = clientRepository ?? throw new ArgumentNullException(nameof(clientRepository));
+        _mapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
+        _validator = validator ?? throw new ArgumentNullException(nameof(validator));
     }
 
     public IEnumerable<ClientDto> GetAll()

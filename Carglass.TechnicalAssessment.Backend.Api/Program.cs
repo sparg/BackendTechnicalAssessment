@@ -18,7 +18,7 @@ builder.Host.ConfigureContainer<ContainerBuilder>(containerBuilder =>
     containerBuilder
         .RegisterModule<Carglass.TechnicalAssessment.Backend.BL.Module>()
         .RegisterModule<Carglass.TechnicalAssessment.Backend.DL.Module>()
-        .RegisterModule<Carglass.TechnicalAssessment.Backend.Dtos.Module>();
+        .RegisterModule<Carglass.TechnicalAssessment.Backend.Models.Module>();
 });
 
 var app = builder.Build();

@@ -1,6 +1,6 @@
-﻿namespace Carglass.TechnicalAssessment.Backend.Entities;
+﻿namespace Carglass.TechnicalAssessment.Backend.Models.Dto;
 
-public class Client
+public class ClientDto
 {
     public int Id { get; set; }
     public string DocType { get; set; }

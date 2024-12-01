@@ -1,4 +1,4 @@
-﻿namespace Carglass.TechnicalAssessment.Backend.BL;
+﻿namespace Carglass.TechnicalAssessment.Backend.BL.Base.Interfaces;
 
 public interface ICrudAppService<TDto>
 {

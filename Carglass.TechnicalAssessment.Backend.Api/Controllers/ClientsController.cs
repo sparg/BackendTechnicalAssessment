@@ -1,5 +1,5 @@
-using Carglass.TechnicalAssessment.Backend.BL;
-using Carglass.TechnicalAssessment.Backend.Dtos.Clients;
+using Carglass.TechnicalAssessment.Backend.BL.Clients;
+using Carglass.TechnicalAssessment.Backend.Models.Dto;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Carglass.TechnicalAssessment.Backend.Api.Controllers;
