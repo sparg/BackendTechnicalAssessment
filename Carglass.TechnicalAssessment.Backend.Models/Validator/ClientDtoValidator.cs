@@ -23,6 +23,11 @@ public class ClientDtoValidator : AbstractValidator<ClientDto>
             .MaximumLength(12)
             .WithMessage("El número de documento tiene una longitud máxima de 12 caracteres.");
 
+        RuleFor(x => x.DocNum)
+            .Matches(@"^\d{8}[A-Za-z]$")
+            .WithMessage("El número de documento no cumple el formato NIF (8 dígitos y 1 letra).")
+            .When(x => x.DocType.ToLower() == "nif");
+
         RuleFor(x => x.Email)
             .NotEmpty()
             .WithMessage("El email es necesario.")
