@@ -53,6 +53,14 @@ Esta nueva estructura modular facilita el mantenimiento, mejora la claridad y pe
    - El código depende de abstracciones, no de implementaciones concretas, lo que facilita el desacoplamiento y la prueba unitaria.  
    - **Ejemplo**: Las interfaces como **IClientRepository** se inyectan en lugar de instanciar clases concretas, promoviendo la flexibilidad y la modularidad.
 
+## _Mejoras Técnicas Planificadas_
+
+1. **Actualización a .NET 9**: Se planea migrar el proyecto a la última versión del framework para mejorar el rendimiento y la compatibilidad con nuevas funcionalidades.  
+2. **Actualización de Librerías**: Se actualizarán todas las dependencias a sus versiones más recientes para garantizar estabilidad y acceso a mejoras y correcciones de errores.  
+3. **Revisión de Deprecaciones**: Se llevará a cabo una revisión exhaustiva para asegurar que no se utilicen métodos o librerías obsoletas, garantizando la sostenibilidad del proyecto a largo plazo.  
+4. **Implementación de Autenticación y Autorización**: Se integrará un sistema robusto de autenticación y autorización utilizando OAuth para gestionar de manera segura el acceso y los permisos dentro de la aplicación.
+5. **Programación Asíncrona**: Se refactorizará el código para adoptar programación asíncrona, incrementando la eficiencia y la capacidad de respuesta de la aplicación.
+
 # Prueba técnica para Backend
 
 
