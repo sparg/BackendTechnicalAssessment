@@ -2,7 +2,7 @@
 using Carglass.TechnicalAssessment.Backend.Models.Dto;
 using Carglass.TechnicalAssessment.Backend.Models.Entities;
 
-namespace Carglass.TechnicalAssessment.Backend.BL.Clients.Converter;
+namespace Carglass.TechnicalAssessment.Backend.BL.Converter;
 
 public class ClientProfileConverter : Profile
 {

@@ -1,5 +1,4 @@
-﻿using Carglass.TechnicalAssessment.Backend.DL.Repositories.Interfaces;
-using Carglass.TechnicalAssessment.Backend.Models.Entities;
+﻿using Carglass.TechnicalAssessment.Backend.Models.Entities;
 
 namespace Carglass.TechnicalAssessment.Backend.DL.Repositories;
 

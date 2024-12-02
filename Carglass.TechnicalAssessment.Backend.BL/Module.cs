@@ -25,5 +25,9 @@ public class Module : Autofac.Module
         builder.RegisterType<ClientRepository>()
             .As<IClientRepository>()
             .InstancePerDependency();
+
+        builder.RegisterType<ProductRepository>()
+            .As<IProductRepository>()
+            .InstancePerDependency();
     }
 }
