@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carglass.TechnicalAssessmen
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carglass.TechnicalAssessment.Models", "Carglass.TechnicalAssessment.Backend.Models\Carglass.TechnicalAssessment.Models.csproj", "{97CC036D-7368-46F2-9F77-B8F45C2B93D6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carglass.TechnicalAssessment.Data.Test", "Carglass.TechnicalAssessment.Data.Test\Carglass.TechnicalAssessment.Data.Test.csproj", "{F69E0F82-B060-47A9-861A-A448A41725B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carglass.TechnicalAssessment.Services.Test", "Carglass.TechnicalAssessment.Services.Test\Carglass.TechnicalAssessment.Services.Test.csproj", "{9A77D4AC-7680-4254-A4C9-7616A9D63A22}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{97CC036D-7368-46F2-9F77-B8F45C2B93D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97CC036D-7368-46F2-9F77-B8F45C2B93D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97CC036D-7368-46F2-9F77-B8F45C2B93D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F69E0F82-B060-47A9-861A-A448A41725B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F69E0F82-B060-47A9-861A-A448A41725B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F69E0F82-B060-47A9-861A-A448A41725B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F69E0F82-B060-47A9-861A-A448A41725B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A77D4AC-7680-4254-A4C9-7616A9D63A22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A77D4AC-7680-4254-A4C9-7616A9D63A22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A77D4AC-7680-4254-A4C9-7616A9D63A22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A77D4AC-7680-4254-A4C9-7616A9D63A22}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
