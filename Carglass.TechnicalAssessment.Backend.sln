@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carglass.TechnicalAssessmen
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carglass.TechnicalAssessment.Services.Test", "Carglass.TechnicalAssessment.Services.Test\Carglass.TechnicalAssessment.Services.Test.csproj", "{9A77D4AC-7680-4254-A4C9-7616A9D63A22}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CB0070C6-B682-409E-BB4B-A83DF086F3D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{36A0F1EB-72F3-42D6-AAE1-1314769E9DEC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,6 +58,15 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D1477001-F901-44D2-A443-B4A1B9151489} = {CB0070C6-B682-409E-BB4B-A83DF086F3D0}
+		{FE18790F-6FBE-46E4-901B-ED1E965B66C4} = {CB0070C6-B682-409E-BB4B-A83DF086F3D0}
+		{F22D49EB-3E97-4140-88B2-32AA7FAB8012} = {CB0070C6-B682-409E-BB4B-A83DF086F3D0}
+		{F4E8C567-EFE0-4239-BACA-9FD235A49E14} = {36A0F1EB-72F3-42D6-AAE1-1314769E9DEC}
+		{97CC036D-7368-46F2-9F77-B8F45C2B93D6} = {CB0070C6-B682-409E-BB4B-A83DF086F3D0}
+		{F69E0F82-B060-47A9-861A-A448A41725B9} = {36A0F1EB-72F3-42D6-AAE1-1314769E9DEC}
+		{9A77D4AC-7680-4254-A4C9-7616A9D63A22} = {36A0F1EB-72F3-42D6-AAE1-1314769E9DEC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {23D9295B-8EF1-4252-B177-A6170692C519}
