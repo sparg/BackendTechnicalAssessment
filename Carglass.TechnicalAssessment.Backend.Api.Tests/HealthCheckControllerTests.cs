@@ -1,8 +1,8 @@
-﻿using Carglass.TechnicalAssessment.Backend.Api.Controllers;
+﻿using Carglass.TechnicalAssessment.Api.Controllers;
 using FluentAssertions;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Carglass.TechnicalAssessment.Backend.Api.Tests;
+namespace Carglass.TechnicalAssessment.Api.Tests;
 
 public class HealthCheckControllerTests
 {

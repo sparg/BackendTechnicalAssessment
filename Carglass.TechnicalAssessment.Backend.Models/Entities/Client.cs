@@ -1,4 +1,4 @@
-﻿namespace Carglass.TechnicalAssessment.Backend.Models.Entities;
+﻿namespace Carglass.TechnicalAssessment.Models.Entities;
 
 public class Client
 {

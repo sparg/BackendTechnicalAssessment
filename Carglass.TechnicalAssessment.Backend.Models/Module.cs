@@ -1,9 +1,9 @@
 ﻿using Autofac;
-using Carglass.TechnicalAssessment.Backend.Models.Dto;
-using Carglass.TechnicalAssessment.Backend.Models.Validator;
+using Carglass.TechnicalAssessment.Models.Dto;
+using Carglass.TechnicalAssessment.Models.Validator;
 using FluentValidation;
 
-namespace Carglass.TechnicalAssessment.Backend.Models;
+namespace Carglass.TechnicalAssessment.Models;
 
 public class Module : Autofac.Module
 {

@@ -1,8 +1,8 @@
 using AutoMapper;
-using Carglass.TechnicalAssessment.Backend.Models.Dto;
-using Carglass.TechnicalAssessment.Backend.Models.Entities;
+using Carglass.TechnicalAssessment.Models.Dto;
+using Carglass.TechnicalAssessment.Models.Entities;
 
-namespace Carglass.TechnicalAssessment.Backend.BL.Converter;
+namespace Carglass.TechnicalAssessment.Services.Converter;
 
 public class ProductProfileConverter : Profile
 {

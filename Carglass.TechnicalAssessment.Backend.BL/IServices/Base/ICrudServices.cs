@@ -1,6 +1,6 @@
-﻿namespace Carglass.TechnicalAssessment.Backend.BL.Base.Interfaces;
+﻿namespace Carglass.TechnicalAssessment.Services.IServices.Base;
 
-public interface ICrudAppService<TDto>
+public interface ICrudServices<TDto>
 {
     IEnumerable<TDto> GetAll();
     TDto GetById(params object[] keyValues);

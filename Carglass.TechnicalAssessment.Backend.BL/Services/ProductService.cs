@@ -1,10 +1,11 @@
 using AutoMapper;
-using Carglass.TechnicalAssessment.Backend.DL.Repositories;
-using Carglass.TechnicalAssessment.Backend.Models.Dto;
-using Carglass.TechnicalAssessment.Backend.Models.Entities;
+using Carglass.TechnicalAssessment.Data.IRepositories;
+using Carglass.TechnicalAssessment.Models.Dto;
+using Carglass.TechnicalAssessment.Models.Entities;
+using Carglass.TechnicalAssessment.Services.IServices;
 using FluentValidation;
 
-namespace Carglass.TechnicalAssessment.Backend.BL.Products;
+namespace Carglass.TechnicalAssessment.Services.Services;
 
 internal class ProductService : IProductService
 {

@@ -1,7 +1,7 @@
-﻿using Carglass.TechnicalAssessment.Backend.Models.Dto;
+﻿using Carglass.TechnicalAssessment.Models.Dto;
 using FluentValidation;
 
-namespace Carglass.TechnicalAssessment.Backend.Models.Validator;
+namespace Carglass.TechnicalAssessment.Models.Validator;
 
 public class ClientDtoValidator : AbstractValidator<ClientDto>
 {

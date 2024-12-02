@@ -1,4 +1,4 @@
-﻿namespace Carglass.TechnicalAssessment.Backend.Models.Dto
+﻿namespace Carglass.TechnicalAssessment.Models.Dto
 {
     public class ProductDto
     {

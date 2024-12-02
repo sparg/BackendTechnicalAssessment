@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carglass.TechnicalAssessment.Backend.BL", "Carglass.TechnicalAssessment.Backend.BL\Carglass.TechnicalAssessment.Backend.BL.csproj", "{D1477001-F901-44D2-A443-B4A1B9151489}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carglass.TechnicalAssessment.Services", "Carglass.TechnicalAssessment.Backend.BL\Carglass.TechnicalAssessment.Services.csproj", "{D1477001-F901-44D2-A443-B4A1B9151489}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carglass.TechnicalAssessment.Backend.DL", "Carglass.TechnicalAssessment.Backend.DL\Carglass.TechnicalAssessment.Backend.DL.csproj", "{FE18790F-6FBE-46E4-901B-ED1E965B66C4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carglass.TechnicalAssessment.Data", "Carglass.TechnicalAssessment.Backend.DL\Carglass.TechnicalAssessment.Data.csproj", "{FE18790F-6FBE-46E4-901B-ED1E965B66C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carglass.TechnicalAssessment.Backend.Api", "Carglass.TechnicalAssessment.Backend.Api\Carglass.TechnicalAssessment.Backend.Api.csproj", "{F22D49EB-3E97-4140-88B2-32AA7FAB8012}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carglass.TechnicalAssessment.Api", "Carglass.TechnicalAssessment.Backend.Api\Carglass.TechnicalAssessment.Api.csproj", "{F22D49EB-3E97-4140-88B2-32AA7FAB8012}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carglass.TechnicalAssessment.Backend.Api.Tests", "Carglass.TechnicalAssessment.Backend.Api.Tests\Carglass.TechnicalAssessment.Backend.Api.Tests.csproj", "{F4E8C567-EFE0-4239-BACA-9FD235A49E14}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carglass.TechnicalAssessment.Api.Tests", "Carglass.TechnicalAssessment.Backend.Api.Tests\Carglass.TechnicalAssessment.Api.Tests.csproj", "{F4E8C567-EFE0-4239-BACA-9FD235A49E14}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carglass.TechnicalAssessment.Backend.Models", "Carglass.TechnicalAssessment.Backend.Models\Carglass.TechnicalAssessment.Backend.Models.csproj", "{97CC036D-7368-46F2-9F77-B8F45C2B93D6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carglass.TechnicalAssessment.Models", "Carglass.TechnicalAssessment.Backend.Models\Carglass.TechnicalAssessment.Models.csproj", "{97CC036D-7368-46F2-9F77-B8F45C2B93D6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

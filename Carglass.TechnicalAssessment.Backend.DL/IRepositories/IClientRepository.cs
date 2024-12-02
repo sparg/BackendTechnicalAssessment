@@ -1,6 +1,6 @@
-﻿using Carglass.TechnicalAssessment.Backend.Models.Entities;
+﻿using Carglass.TechnicalAssessment.Models.Entities;
 
-namespace Carglass.TechnicalAssessment.Backend.DL.Repositories
+namespace Carglass.TechnicalAssessment.Data.IRepositories
 {
     public interface IClientRepository
     {

@@ -1,8 +1,8 @@
-using Carglass.TechnicalAssessment.Backend.BL.Products;
-using Carglass.TechnicalAssessment.Backend.Models.Dto;
+using Carglass.TechnicalAssessment.Models.Dto;
+using Carglass.TechnicalAssessment.Services.IServices;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Carglass.TechnicalAssessment.Backend.Api.Controllers;
+namespace Carglass.TechnicalAssessment.Api.Controllers;
 
 [ApiController]
 [Route("products")]
@@ -12,7 +12,7 @@ public class ProductsController : ControllerBase
 
     public ProductsController(IProductService productService)
     {
-        this._productService = productService;
+        _productService = productService;
     }
 
     [HttpGet]

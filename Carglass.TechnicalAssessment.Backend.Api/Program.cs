@@ -9,16 +9,16 @@ builder.Services.AddControllers();
 builder.Services
     .AddEndpointsApiExplorer()
     .AddSwaggerGen()
-    .AddAutoMapper(typeof(Carglass.TechnicalAssessment.Backend.BL.Module).Assembly);
+    .AddAutoMapper(typeof(Carglass.TechnicalAssessment.Services.Module).Assembly);
 
 // Use and configure Autofac
 builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory());
 builder.Host.ConfigureContainer<ContainerBuilder>(containerBuilder =>
 {
     containerBuilder
-        .RegisterModule<Carglass.TechnicalAssessment.Backend.BL.Module>()
-        .RegisterModule<Carglass.TechnicalAssessment.Backend.DL.Module>()
-        .RegisterModule<Carglass.TechnicalAssessment.Backend.Models.Module>();
+        .RegisterModule<Carglass.TechnicalAssessment.Services.Module>()
+        .RegisterModule<Carglass.TechnicalAssessment.Data.Module>()
+        .RegisterModule<Carglass.TechnicalAssessment.Models.Module>();
 });
 
 var app = builder.Build();

@@ -1,8 +1,9 @@
 ﻿using Autofac;
-using Carglass.TechnicalAssessment.Backend.DL.Repositories;
+using Carglass.TechnicalAssessment.Data.IRepositories;
+using Carglass.TechnicalAssessment.Data.Repositories;
 using System.Reflection;
 
-namespace Carglass.TechnicalAssessment.Backend.BL;
+namespace Carglass.TechnicalAssessment.Services;
 
 public class Module : Autofac.Module
 {

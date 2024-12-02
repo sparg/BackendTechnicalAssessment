@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace Carglass.TechnicalAssessment.Backend.Api.Controllers
+namespace Carglass.TechnicalAssessment.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
