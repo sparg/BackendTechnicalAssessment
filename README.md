@@ -1,3 +1,58 @@
+# Prueba técnica: Implementación realizada
+
+## _Hitos del Desarrollo y Mejoras Implementadas_
+
+1. Implementación del código faltante para el funcionamiento del CRUD de clientes.  
+2. Incorporación de mejoras solicitadas en el CRUD de clientes.  
+3. Aplicación de buenas prácticas en la nomenclatura durante el refactor.  
+4. Desarrollo del CRUD de productos basado en la lógica del CRUD de clientes.  
+5. Creación del controlador **HealthCheck** con su correspondiente endpoint.  
+6. Creación de un proyecto de **Unit Testing** para probar las funciones CRUD.
+
+
+## _Mejoras en la Estructura del Código_
+
+La reorganización del proyecto ha dado lugar a una estructura más clara y mantenible:
+
+1. **API**:  
+   - Centralización de los controladores para gestionar los endpoints de manera eficiente.  
+   - Se han añadido nuevos controladores:  
+     - **ProductController**: Maneja todas las operaciones CRUD relacionadas con productos.  
+     - **HealthCheckController**: Proporciona un endpoint para monitorear el estado de la aplicación, facilitando la supervisión y la disponibilidad del sistema.
+
+2. **Models**:  
+   - Anteriormente, las entidades estaban separadas en dos proyectos: **Entities** (entidades del dominio) y **DTOs** (objetos de transferencia de datos). Ahora, ambos se han unificado bajo **Models**, simplificando la estructura y mejorando la cohesión.  
+
+3. **Data**:  
+   - Gestión centralizada de la persistencia mediante repositorios y contexto de base de datos, facilitando el acceso y la administración de datos.  
+
+4. **Services**:  
+   - La lógica de negocio se ha desacoplado de los controladores, lo que mejora la reutilización del código y la capacidad de realizar pruebas unitarias.
+
+Esta nueva estructura modular facilita el mantenimiento, mejora la claridad y permite escalar el proyecto de manera más eficiente.
+
+## _Principios SOLID Aplicados_
+
+1. **SRP (Single Responsibility Principle)**:  
+   - Cada clase tiene una única responsabilidad, lo que facilita su mantenimiento y comprensión.  
+   - **Ejemplo**: La clase **ClientServiceTests** se encarga exclusivamente de las pruebas del servicio de clientes, sin mezclar lógica adicional.
+
+2. **OCP (Open/Closed Principle)**:  
+   - El código está diseñado para ser abierto a extensiones, pero cerrado a modificaciones, evitando cambios innecesarios en el código existente.  
+   - **Ejemplo**: Se pueden agregar nuevas implementaciones de **IClientService** sin modificar las clases ya existentes.
+
+3. **LSP (Liskov Substitution Principle)**:  
+   - Las clases derivadas pueden sustituir a sus clases base sin alterar el comportamiento del programa.  
+   - **Ejemplo**: **Mock<IClientRepository>** puede ser utilizado en lugar de **IClientRepository** en las pruebas, manteniendo la funcionalidad intacta.
+
+4. **ISP (Interface Segregation Principle)**:  
+   - Las interfaces son específicas, evitando que las clases implementen métodos que no necesitan.  
+   - **Ejemplo**: **IClientRepository** solo contiene métodos relacionados con la gestión de clientes, garantizando interfaces limpias y concisas.
+
+5. **DIP (Dependency Inversion Principle)**:  
+   - El código depende de abstracciones, no de implementaciones concretas, lo que facilita el desacoplamiento y la prueba unitaria.  
+   - **Ejemplo**: Las interfaces como **IClientRepository** se inyectan en lugar de instanciar clases concretas, promoviendo la flexibilidad y la modularidad.
+
 # Prueba técnica para Backend
 
 
